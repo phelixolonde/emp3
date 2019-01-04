@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.hansen.winbet.Home">
+    <item
+            android:id="@+id/menu_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share"
+            app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_rate"
+            app:showAsAction="ifRoom"
+            android:title="@string/rate_us_please"/>
+    <item
+            android:id="@+id/updaete"
+            android:title="@string/update_app"/>
+    <item
+            android:id="@+id/feedback"
+            android:title="@string/feedback"/>
+    <item
+            android:id="@+id/privacy"
+            android:title="@string/privacy_policy"/>
+    <item
+            android:id="@+id/about"
+            android:title="@string/about"/>
+</menu>
