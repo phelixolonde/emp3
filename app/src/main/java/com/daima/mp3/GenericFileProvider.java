@@ -1,4 +1,4 @@
-package com.automata.emp3;
+package com.daima.mp3;
 
 import android.support.v4.content.FileProvider;
 

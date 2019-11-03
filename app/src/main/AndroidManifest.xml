@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.automata.emp3">
+          package="com.daima.mp3">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -10,13 +10,13 @@
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
-            android:name=".emp3"
+            android:name="com.daima.mp3.mp3"
             android:hardwareAccelerated="true"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <provider
-                android:name=".GenericFileProvider"
+                android:name="com.daima.mp3.GenericFileProvider"
                 android:authorities="${applicationId}.provider"
                 android:exported="false"
                 android:grantUriPermissions="true">
@@ -24,7 +24,7 @@
                     android:name="android.support.FILE_PROVIDER_PATHS"
                     android:resource="@xml/provider_paths"/>
         </provider>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.daima.mp3.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

@@ -1,4 +1,4 @@
-package com.automata.emp3;
+package com.daima.mp3;
 
 
 
@@ -15,13 +15,13 @@ import com.android.volley.toolbox.Volley;
  * Created by HANSEN on 2/24/2017.
  */
 
-public class emp3 extends Application{
-    public static final String TAG = emp3.class
+public class mp3 extends Application{
+    public static final String TAG = mp3.class
             .getSimpleName();
 
     private RequestQueue mRequestQueue;
 
-    private static emp3 mInstance;
+    private static mp3 mInstance;
     @Override
     public void onCreate() {
         super.onCreate();
@@ -36,7 +36,7 @@ public class emp3 extends Application{
     }
 
 
-    public static synchronized emp3 getInstance() {
+    public static synchronized mp3 getInstance() {
         return mInstance;
     }
 

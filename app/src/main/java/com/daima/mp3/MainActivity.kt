@@ -1,4 +1,4 @@
-package com.automata.emp3
+package com.daima.mp3
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -518,7 +518,7 @@ class MainActivity : AppCompatActivity() {
             }
         )
 
-        emp3.getInstance().addToRequestQueue(postRequest, "SONG_REQUEST")
+        mp3.getInstance().addToRequestQueue(postRequest, "SONG_REQUEST")
 
     }
 
@@ -674,7 +674,7 @@ class MainActivity : AppCompatActivity() {
             }
         )
 
-        emp3.getInstance().addToRequestQueue(postRequest, "SONG_REQUEST")
+        mp3.getInstance().addToRequestQueue(postRequest, "SONG_REQUEST")
 
     }
 
@@ -743,7 +743,7 @@ class MainActivity : AppCompatActivity() {
             }
         )
 
-        emp3.getInstance().addToRequestQueue(postRequest, "SONG_REQUEST")
+        mp3.getInstance().addToRequestQueue(postRequest, "SONG_REQUEST")
 
 
     }
@@ -849,7 +849,7 @@ class MainActivity : AppCompatActivity() {
             }
         )
 
-        emp3.getInstance().addToRequestQueue(postRequest, "SONG_REQUEST")
+        mp3.getInstance().addToRequestQueue(postRequest, "SONG_REQUEST")
     }
 
     val onComplete = object : BroadcastReceiver() {
